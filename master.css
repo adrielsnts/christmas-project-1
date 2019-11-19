@@ -1,0 +1,484 @@
+@import url ('https://fonts.googleapis.com/css?family=Varela+Round');
+@import 'https://fonts.googleapis.com/css?family=Raleway';
+
+html{
+    height:100%;
+    margin: 0;
+}
+
+
+nav {
+    float:right;
+    font-family:"Varela Round";
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  z-index: 1030;
+}
+
+nav ul {
+    margin:0;
+    padding:0;
+    list-style:none;
+     position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  z-index: 1030;
+}
+
+nav li {
+    display:inline-block;
+    margin-left: 70px;
+    margin-top:20px;
+    padding-right:10px;
+}
+
+nav a {
+    color:black;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#welcome {
+    padding-right: 200px;
+    padding-left:100px;
+}
+
+nav a:hover {
+    color: #f7ad1e;
+}
+
+#page-top{
+    margin:0;
+    background-image:url(white2.jpg);
+    background-size:100%;
+    font-family:"Varela Round";
+}
+
+#page1body{
+    
+    margin:0;
+    background: white;
+    background-size:100%;
+    font-family:"Varela Round";
+    
+}
+header {
+    background:white;
+    padding-bottom: 20px;
+     position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  z-index: 1030;
+padding-top:40px;
+}
+
+.container1 {
+    width:80%;
+    margin:0 auto;
+    position: relative;
+}
+
+#page1.html header {
+    size:5%;
+}
+
+header::after{
+    content:"";
+    display:table;
+    clear:both;
+}
+
+#wcstatement {
+    text-align: center;
+    color:white;
+    font-size: 50px;
+    padding-top: 100px;
+}
+
+div.container
+{
+    font-family: Raleway;
+    margin: 0 auto;
+	padding: 3em;
+	text-align: center;
+}
+
+div.container a
+{
+    color: #FFF;
+    text-decoration: none;
+    font: 30px Raleway;
+    margin: 0px 10px;
+    padding: 10px 10px;
+    position: relative;
+    z-index: 0;
+    cursor: pointer;
+}
+
+/* Brackets go out */
+div.brackets a:before, div.brackets a:after
+{
+    position: absolute;
+    opacity: 0;
+    font-size: 35px;
+    top: 5px;
+    transition: all 0.3s;
+}
+
+div.brackets a:before
+{
+    content: '(';
+    left: 0px;
+    transform: translateX(10px);
+}
+
+div.brackets a:after
+{
+    content: ')';
+    right: 0px;
+    transform: translateX(-10px);
+}
+
+div.brackets a:hover:before, div.brackets a:hover:after
+{
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+.pimg1,.pimg2,.pimg3,.pimg4{
+    position:relative;
+    opacity:1;
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+}
+
+.pimg1 {
+    background-image:url(mom1.jpg);
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.pimg2 {
+    background-image:url(dad2.jpg);
+    min-height:100%;
+}
+
+.pimg3 {
+    background-image:url(kuyaba2.jpg);
+    min-height:100%;
+}
+
+.pimg4 {
+    background-image:url(kuyabo2.jpg);
+    min-height:100%;
+}
+
+.section-green {
+    text-align: center;
+    padding:50px 80px;
+    background-color: #165b33;
+    color: white;
+}
+
+.section-yellow {
+    text-align: center;
+    padding:50px 80px;
+    background-color: #eda314;
+    color:white;
+}
+
+.section-orange {
+    text-align: center;
+    padding:50px 80px;
+    background-color:  #ea4630;
+    color: white;
+}
+
+.section-red {
+    text-align: center;
+    padding:50px 80px;
+    background-color: #bb2528;
+    color: white;
+}
+
+.ptext {
+    position:absolute;
+    top:50%;
+    width:100%;
+    text-align: center;
+    color: #000;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    
+}
+
+::-webkit-scrollbar {
+    display:none;
+}
+
+#page2body {
+    background-image: url(bgpage2.jpg);
+    background-position: center;
+    background-repeat: repeat;
+    position: absolute;
+    background-size: cover;
+    width:100%;
+    height:100%;
+    margin:0;
+}
+
+div.choices {
+    padding-top: 300px;
+    position: center;
+    padding-bottom:50px;
+}
+
+div.choices li{
+    padding-bottom: 86px;
+}
+
+div.choices a:before, div.choices a:after
+{
+    position: absolute;
+    opacity: 0;
+    font-size: 35px;
+    top: 5px;
+    transition: all 0.3s;
+}
+
+div.choices a:before
+{
+    content: '(';
+    left: 0px;
+    transform: translateX(10px);
+}
+
+div.choices a:after
+{
+    content: ')';
+    right: 0px;
+    transform: translateX(-10px);
+}
+
+div.choices a:hover:before, div.choices a:hover:after
+{
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+.albums,.series,.movies {
+    background-color:#020410;
+}
+
+.albums > img{
+        height: 300px;
+        padding-right: 30px;
+}
+
+.albums > img michael.png{
+    padding-right:400px;
+    
+}
+
+.albums > h2 {
+    font-size: 50px;
+    color: white;
+    font: "Raleway";
+    padding-bottom: 20px;
+}
+
+.movies > img {
+    height:400px;
+    padding-left: 25px;
+    padding-bottom: 10 px;
+}
+
+.movies > h2 {
+    font-size: 50px;
+    color: white;
+    font: "Raleway";
+    padding-bottom: 20px;
+}
+
+.series > img {
+    height:300px;
+    padding-left: 48px;
+}
+
+.series > h2 {
+    
+        font-size: 50px;
+    color: white;
+    font: "Raleway";
+    padding-bottom: 20px;
+    
+}
+
+
+#page3body {
+    background-image: url(page3bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    position: fixed;
+    background-size: cover;
+    height:100%;
+    width:100%;
+    margin:0;
+}
+
+div.textbox {
+    color: white;
+    margin-left: 800px;
+    margin-right:100px;
+    margin-top: 150px;
+}
+
+<-------new--------->
+
+}
+*,:after,:before{box-sizing:border-box}
+.clearfix:after,.clearfix:before{content:'';display:table}
+.clearfix:after{clear:both;display:block}
+a{color:inherit;text-decoration:none}
+
+
+.login-html{
+	width:20%;
+	height:50%;
+	position:absolute;
+    margin-left: 860px;
+    margin-top:170px;
+	padding:40px 70px 50px 70px;
+	background:rgba(255, 255, 255, 0.9);
+    font-family: "Raleway";
+}
+.login-html .sign-in-htm,
+.login-html .sign-up-htm{
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	position:absolute;
+	transform:rotateY(180deg);
+	backface-visibility:hidden;
+	transition:all .4s linear;
+}
+.login-html .sign-in,
+.login-html .sign-up,
+.login-form .group .check{
+	display:none;
+}
+.login-html .tab,
+.login-form .group .label,
+.login-form .group .button{
+	text-transform:uppercase;
+}
+.login-html .tab{
+	font-size:22px;
+	margin-right:15px;
+	padding-bottom:5px;
+	margin:0 15px 10px 0;
+	display:inline-block;
+	border-bottom:2px solid transparent;
+}
+.login-html .sign-in:checked + .tab,
+.login-html .sign-up:checked + .tab{
+	color:#f0a307;
+	border-color:#034881;
+}
+.login-form{
+	min-height:345px;
+	position:relative;
+	perspective:1000px;
+	transform-style:preserve-3d;
+}
+.login-form .group{
+	margin-bottom:15px;
+}
+.login-form .group .label,
+.login-form .group .input,
+.login-form .group .button{
+	width:100%;
+	color:#fff;
+	display:block;
+}
+.login-form .group .input,
+.login-form .group .button{
+	border:none;
+	padding:15px 20px;
+	border-radius:25px;
+	background:rgba(0,0,0,.1);
+}
+.login-form .group input[data-type="password"]{
+	text-security:circle;
+	-webkit-text-security:circle;
+}
+.login-form .group .label{
+	color:#aaa;
+	font-size:12px;
+}
+.login-form .group .button{
+	background:#034881;
+}
+.login-form .group label .icon{
+	width:15px;
+	height:15px;
+	border-radius:2px;
+	position:relative;
+	display:inline-block;
+	background:rgba(0,0,0,.90);
+}
+.login-form .group label .icon:before,
+.login-form .group label .icon:after{
+	content:'';
+	width:10px;
+	height:2px;
+	background:#fff;
+	position:absolute;
+	transition:all .2s ease-in-out 0s;
+}
+.login-form .group label .icon:before{
+	left:3px;
+	width:5px;
+	bottom:6px;
+	transform:scale(0) rotate(0);
+}
+.login-form .group label .icon:after{
+	top:6px;
+	right:0;
+	transform:scale(0) rotate(0);
+}
+.login-form .group .check:checked + label{
+	color:black;
+}
+.login-form .group .check:checked + label .icon{
+	background:#034881;
+}
+.login-form .group .check:checked + label .icon:before{
+	transform:scale(1) rotate(45deg);
+}
+.login-form .group .check:checked + label .icon:after{
+	transform:scale(1) rotate(-45deg);
+}
+.login-html .sign-in:checked + .tab + .sign-up + .tab + .login-form .sign-in-htm{
+	transform:rotate(0);
+}
+.login-html .sign-up:checked + .tab + .login-form .sign-up-htm{
+	transform:rotate(0);
+}
+
+.hr{
+	height:2px;
+	margin:60px 0 50px 0;
+	background:rgba(255,255,255,.2);
+}
+.foot-lnk{
+	text-align:center;
+}
